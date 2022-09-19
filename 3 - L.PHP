@@ -4,8 +4,6 @@ interface DBConnectionInterface {
     public function connect();
 }
 
-
-
 class MySQLConnection implements DBConnectionInterface{
     /**
      * @throws ErrorException
