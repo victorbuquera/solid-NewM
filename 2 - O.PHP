@@ -1,11 +1,11 @@
 <?php
 
 interface animais {
-    public function comportamento() : string;
+    public function comportamento();
 }
 
 class Gato implements animais {
-    public function comportamento() 
+    public function comportamento()
     {
         echo 'MIA';
     }
